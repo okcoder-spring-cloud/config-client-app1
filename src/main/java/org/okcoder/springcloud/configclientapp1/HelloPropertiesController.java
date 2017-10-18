@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableConfigurationProperties(HelloProperties.class)
 public class HelloPropertiesController {
-//curl -X POST http://localhost:8080/application/refresh
+//curl -X POST http://localhost:8080/refresh
 //change helloProperties.getWelcomeMessage() but no refreshScopeValue
 //curl http://localhost:8080/welcome1
 

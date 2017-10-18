@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-//curl -X POST http://localhost:8080/application/refresh
-//can not change logger.level,why?
+//curl -X POST http://localhost:8080/refresh
+//change logger.level by spring boot 1.5.X
 //curl http://localhost:8080/welcome
 
 

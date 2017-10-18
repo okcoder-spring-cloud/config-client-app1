@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class HelloRefreshScopeController {
-//curl -X POST http://localhost:8080/application/refresh
+//curl -X POST http://localhost:8080/refresh
 //change refreshScopeValue 
 //curl http://localhost:8080/welcome3
 
